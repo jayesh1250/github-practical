@@ -1,0 +1,6 @@
+This is a sampl script to create terraform infrastructure.
+aws_ec2_instance "Test" {
+     instance_type = "t2.micro"
+     key = "NVirgnia"
+     ami_id = "khbsigdbusdj1871"
+}
