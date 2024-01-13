@@ -1,3 +1,5 @@
 aws_resource "ec2" {
-
+        name = ec2_dev_instance
+	instance_type = "t2.micro"
+	key_name = "terraform"
 }
